@@ -11,6 +11,9 @@
         ElseIf TextBox1.Text = "admin" And TextBox2.Text = "admin123" Then
             Admin.Show()
             Me.Hide()
+        ElseIf TextBox1.Text = "lect" And TextBox2.Text = "lect123" Then
+            Lecturer.Show()
+            Me.Hide()
         Else
             MsgBox("User name or Passwords is incorrect")
         End If
