@@ -2,7 +2,6 @@
 
     Private Sub Student_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'ConsultDataSet.Appointment' table. You can move, or remove it, as needed.
-        Me.AppointmentTableAdapter.Fill(Me.ConsultDataSet.Appointment)
 
     End Sub
 
@@ -26,5 +25,12 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Login.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button3_Click_1(sender As Object, e As EventArgs) Handles Button3.Click
     End Sub
 End Class
